@@ -8,8 +8,10 @@ import java.util.HashMap;
  */
 public class P5 {
 
+    // leetcode 494题
+
     // 暴力递归 + 缓存
-    public int f1(int[] arr, int target) {
+    public int findTargetSumWays(int[] arr, int target) {
         HashMap<Integer, HashMap<Integer, Integer>> dp = new HashMap<>();
         return process(arr, 0, target, dp);
     }

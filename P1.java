@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class P1 {
 
-    // 解法一
+    // 解法一：二分
     public static int maxPoints1(int[] arr, int k) {
         int max = 1;
         for (int i = 0; i < arr.length; i++) {
@@ -33,7 +33,7 @@ public class P1 {
         return index;
     }
 
-    // 解法二
+    // 解法二：滑动窗口
     public static int maxPoints2(int[] arr, int k) {
         int l = 0;
         int r = 0;
