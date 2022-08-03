@@ -6,7 +6,7 @@ import org.junit.Test;
  * 给定一个非负整数num，如何不用循环语句，返回>=num，并且离num最近的2的某次方。
  * @create 2022-08-01 10:25
  */
-public class P3 {
+public class P3_Near2Power {
 
     public int f(int num) {
         num--;

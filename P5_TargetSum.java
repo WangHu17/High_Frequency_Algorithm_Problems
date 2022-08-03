@@ -6,7 +6,7 @@ import java.util.HashMap;
  * 给定一个数组，在每个数前决定符号（+或-），最终结果要等于 target，求有多少种方法。
  * @create 2022-08-01 10:59
  */
-public class P5 {
+public class P5_TargetSum {
 
     // leetcode 494题
 

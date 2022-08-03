@@ -6,7 +6,7 @@ import org.junit.Test;
  * 给定一个二维数组matrix，你可以从任何位置出发，走向上下左右四个方向，返回能走出来的最长的递增链长度。
  * @create 2022-08-01 14:21
  */
-public class P6 {
+public class P6_LongestIncreasingPath {
 
     public int longestIncreasingPath(int[][] matrix) {
         int M = matrix.length;
