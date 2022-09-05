@@ -6,7 +6,7 @@ import org.junit.Test;
  * 给定一个数组，代表汉诺塔此刻的状态，数字表示在哪根柱子上，索引越大盘子越大。求此刻的状态是最优解的第几步，如果不是最优解的其中一步返回-1。
  * @create 2022-09-04 17:08
  */
-public class P89_HanoiProblem {
+public class P90_HanoiProblem {
 
     public int kth(int[] arr) {
         if (arr == null || arr.length == 0) return -1;
